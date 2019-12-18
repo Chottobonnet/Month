@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>パスワード再設定</title>
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/header.css">
+
     <link rel="stylesheet" href="./css/passwdreset.css">
   </head>
   <body>
@@ -18,18 +19,18 @@
     </header>
 
     <main>
-      <p id="resetText">パスワード再設定</p>
-      <div class="resetForm">
-        <p >エラー文表示</p>
+      <p class="tai">パスワード再設定</p>
+      <div class="pswdReBox">
+        <p class="pswdReBox_err">エラー文表示</p>
 
-        <form class="" action="#" method="post">
-          <p>メールアドレス</p>
-          <input type="text" name="" value=""><br>
+        <form class="pswdReBox_form" action="#" method="post">
+          <p class="pswdReBox_mail">メールアドレス</p>
+          <input class="pswdReBox_mail_in" type="text" name="" value=""><br>
 
-          <p>会社名</p>
-          <input type="text" name="" value=""><br>
+          <p class="pswdReBox_comp">会社名</p>
+          <input class="pswdReBox_comp_in" type="text" name="" value=""><br>
 
-          <input type="submit" name="" value="本人確認メール送信">
+          <input class="pswdReBox_submit" type="submit" name="" value="本人確認メール送信">
         </form>
       </div>
     </main>
