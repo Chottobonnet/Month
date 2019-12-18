@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* タイトル */
+.tai{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+}
+/* パスワード変更BOX */
+.pswdChBox{
+    width: 500px;
+    /* height: 450px; */
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #fafafa;
+    /* box-shadow: 2px 2px 8px #000; */
+}
+/* エラー */
+.pswdChBox_err{
+    color: #f00;
+    padding-top: 20px;
+    text-align: center;
+}
+/* パスワード変更FORM */
+.pswdChBox_form{
+   width: 500px;
+   justify-content: center;
+}
+/* 新規パスワード */
+.pswdChBox_new,.pswdChBox_onemore{
+    margin-left: 100px;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+.pswdChBox_new_in,.pswdChBox_onemore_in{
+    width: 300px;
+    height: 30px;
+    margin-left: 100px;
+}
+/* 送信ボタン */
+.pswdChBox_submit{
+    margin-left: 150px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #20aee5;
+    border-color: #51b0d5;
+}
