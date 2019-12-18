@@ -1,8 +1,44 @@
 @charset "UTF-8";
-.termarea{
+body{
+  /* background: #ddd; */
+}
+/* BOX */
+.termarea_box{
   border: solid 1px;
   width: 700px;
-  height: 400px;
+  height: 350px;
   overflow: scroll;
   margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
 }
+/* タイトル */
+.termarea_tai{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+/* 規約BOX */
+span{
+  font-size: 20px;
+}
+.termarea_box{
+  margin-top: 20px;
+}
+/* 入会に戻る */
+.termarea_back_button{
+  width: 200px;
+  height: 40px;
+  background-color: #20aee5;
+  border-color: #51b0d5;
+  color: #fff;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  }
+
